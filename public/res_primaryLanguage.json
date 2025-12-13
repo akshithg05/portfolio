@@ -11,11 +11,18 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-      "images": ["images/portfolio/animal-shelter/p1.jpg", "images/portfolio/animal-shelter/p2.jpg"],
-      "url": "",
+      "title": "devTinder",
+      "startDate": "2025",
+      "description": "DevTinder is a full-stack matchmaking and networking platform with secure authentication, real-time one-to-one chat, premium subscription workflows, and automated email notifications, built using React (Vite), Tailwind CSS, and Redux Toolkit on the frontend, Node.js, Express, MongoDB, Socket.IO, and Stripe on the backend, featuring cron-based background jobs, cookie-based session handling with JWTs, and deployed in a production-style setup with the frontend on Netlify and backend on Render.",
+      "images": [
+        "images/portfolio/devTinder/image1.png",
+        "images/portfolio/devTinder/image5.png",
+        "images/portfolio/devTinder/image6.png",
+        "images/portfolio/devTinder/image4.png",
+        "images/portfolio/devTinder/image3.png",
+        "images/portfolio/devTinder/image2.png"
+      ],
+      "url": "https://dev-tidner.netlify.app/feed",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
@@ -32,11 +39,15 @@
       ]
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": ["images/portfolio/photography/p1.jpg", "images/portfolio/photography/p2.jpg"],
-      "url": "https://github.com",
+      "title": "NetflixGPT",
+      "startDate": "2025",
+      "description": "AI-assisted movie browsing platform integrating OpenAI GPT-4o with the TMDB API to deliver intelligent recommendations and real-time data, built using React (Vite), Tailwind CSS, Redux, and Firebase Authentication, featuring secure routing, autoplay trailers, memoized API calls, multi-language support, and AI-driven search with content filtering.",
+      "images": [
+        "images/portfolio/netflixGpt/image1.png",
+        "images/portfolio/netflixGpt/image2.png",
+        "images/portfolio/netflixGpt/image3.png"
+      ],
+      "url": "https://neftlix-gtp.netlify.app",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -49,70 +60,16 @@
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": ["images/portfolio/adventure/p1.jpg", "images/portfolio/adventure/p2.jpg"],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-      "images": ["images/portfolio/animal-shelter/p1.jpg", "images/portfolio/animal-shelter/p2.jpg"],
-      "url": "",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": ["images/portfolio/photography/p1.jpg", "images/portfolio/photography/p2.jpg"],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        }
-      ]
-    },
-    {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": ["images/portfolio/adventure/p1.jpg", "images/portfolio/adventure/p2.jpg"],
-      "url": "https://github.com",
+      "title": "Cafficionado",
+      "startDate": "2025",
+      "description": "Cafficionado is a real-time caffeine tracking web app that helps users log coffee consumption, simulate blood caffeine levels using metabolic models, and analyze long-term costs, built with React and FantaCSS, backed by Firebase Authentication and Firestore for secure, real-time data persistence, and designed to deliver a responsive, insightful experience across devices.",
+      "images": [
+        "images/portfolio/cafficionado/image1.png",
+        "images/portfolio/cafficionado/image2.png",
+        "images/portfolio/cafficionado/image3.png",
+        "images/portfolio/cafficionado/image4.png"
+      ],
+      "url": "https://cafficionado.netlify.app/",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
@@ -165,6 +122,73 @@
         "Automated validation and release workflows for HPE OneView SDKs (Python, Ansible, Go, Terraform) using Jenkins and Linux-based CI pipelines.",
         "Developed automation scripts to streamline build, test, and deployment processes, improving release consistency and reducing manual effort.",
         "Contributed to maintaining stable SDK releases by implementing end-to-end checks, debugging issues, and enhancing pipeline reliability."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "AWS Certified AI Practitioner",
+      "description": "Earners of this badge understand AI, ML, and generative AI concepts, methods, and strategies in general and on AWS. They can determine the correct types of AI/ML technologies to apply to specific use cases and know how to use AI, ML, and generative AI technologies responsibly. They are familiar with the AWS Global Infrastructure, core AWS services and use cases, AWS service pricing models, and the AWS shared responsibility model for security and compliance in the AWS Cloud.",
+      "image": "/images/portfolio/achievements/cloud.png",
+      "tags": ["Data Science", "60 hour datathon", "First Place"]
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "description": "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.",
+      "image": "/images/portfolio/achievements/ai.png",
+      "tags": ["Cloud", "RCNN", "SSD", "YOLO", "Publication"]
+    },
+    {
+      "title": "Research Publication 1",
+      "description": "Published a paper titled SOTW: Semantics Oriented Tagging of Web Pages, in Springer Nature 2023.",
+      "image": "/images/portfolio/achievements/paper.png",
+      "tags": ["Research", "AI", "TF-IDF", "Publication"]
+    },
+    {
+      "title": "Research Publication 2",
+      "description": "Published a paper titled Ontology Integration for Cultural Landscape Management Using ML and Assistive Artificial Intelligence, in Springer Nature 2023.",
+      "image": "/images/portfolio/achievements/paper.png",
+      "tags": ["Research", "AI", "TF-IDF", "Publication"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Northeastern University",
+      "degree": "Master of Science - MS, Data Science",
+      "location": "Boston, MA",
+      "years": "Sep 2023 - May 2025",
+      "gpa": "3.857",
+      "Research Assistant": [
+        "Worked as a research assistant under Professor Kwong Chan as part of <a href='https://damore-mckim.northeastern.edu/dash' target='_blank'>DMSB AI Strategic Hub</a> to build a feedback bot to automate grading on canvas"
+      ],
+      "Teaching Assistant": [
+        "Worked as a teaching assistant for <a href='https://course.ccs.neu.edu/cs1800/course_staff.html' target='_blank'>CS1800-Discrete Structures in Mathematics</a> under Professor Matt Higger",
+        "Worked as a teaching assistant for <a href='https://catalog.northeastern.edu/course-descriptions/mism/' target='_blank'>MSIM6212 - Data Mining and Machine Learning for Business</a> under Prof. Xiupeng Wang",
+        "Worked as a teaching assistant for <a href='https://www.khoury.northeastern.edu/home/vkp/3800-sp13/Course_Overview.html' target='_blank'>CS3800 - Theory of Computation</a> under Prof. Walter Schnyder"
+      ],
+
+      "coursework": [
+        "DS5110 Introduction to Data Management and Processing, CS5800 Algorithms, DS5220 Supervised Machine Learning, DS5230 Unsupervised Machine Learning, CS6120 Natural Language Processing, DS5983 Large Language Models, DS5500 Data Science Capstone"
+      ],
+      "extra": [
+        "Member of the <a href='https://www.khoury.northeastern.edu/clubs_and_orgs/the-data-science-hub-boston/' target='_blank'>Data Science Hub</a> at Northeastern University"
+      ]
+    },
+    {
+      "institution": "B. M. S. College of Engineering",
+      "degree": "Bachelor of Engineering - BE, Information Science",
+      "location": "Bengaluru, India",
+      "years": "2019 - 2023",
+      "gpa": "3.8",
+      "Research Assitant": [],
+      "Teaching Assistant": [],
+      "coursework": [
+        "19MA3BSSDM Statistics and Discrete Mathematics, 19MA3BLIA Linear Algebra, 19IS3PCOOP Object Oriented Programming, 20IS5PEADS Advanced Data Structures and Algorithms, 20IS5PDBMS Database Management Systems, 20IS5PEAPP Advanced Python Programming, 20IS7OEMLG Machine Learning, 20IS6PEDLG Deep Learning"
+      ],
+      "extra": [
+        "Member of the Rotaract club and part of <a href='https://bmscerotaract.wordpress.com/2019/10/09/iteach-phase-11-opening-session/' target='_blank'>iTeach initiative</a>  at BMSCE",
+        "Member of <a href =https://www.bmsceieee.com/home target='_blank'>IEEE Student Branch</a> at BMSCE",
+        "Member of the university chess team"
       ]
     }
   ]

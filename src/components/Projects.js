@@ -20,11 +20,7 @@ class Projects extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
-          <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
-            style={{ cursor: "pointer" }}
-          >
+          <div className="col-sm-12 col-md-6 col-lg-4" key={projects.title} style={{ cursor: "pointer" }}>
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div>
@@ -32,13 +28,11 @@ class Projects extends Component {
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{ marginBottom: 0, paddingBottom: 0, position: "relative" }}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
+                  <p className="project-title-settings mt-3">{projects.title}</p>
                 </div>
               </div>
             </span>
@@ -56,11 +50,7 @@ class Projects extends Component {
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>
           </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />
+          <ProjectDetailsModal show={this.state.detailsModalShow} onHide={detailsModalClose} data={this.state.deps} />
         </div>
       </section>
     );

@@ -60,7 +60,7 @@ header {
   z-index: -500;
   border-top: 5px solid #696969;
   border-radius: 0 0 5px 5px;
-  background-color: #696969;
+  background-color: #1b4332;
   color: white;
 }
 
@@ -98,11 +98,11 @@ header h1 {
 }
 
 .slider-image {
-  border: 5px solid #d7caaa;
+  border: 5px solid #3c9c73;
 }
 
 .slider-tab {
-  background-color: #d7caaa;
+  background-color: #54ffb5;
   height: 25px;
 }
 
@@ -433,4 +433,241 @@ footer a:focus {
 .social-links {
   margin-top: 50px;
   font-size: 22px;
+}
+.achievements-container {
+  padding: 20px 0;
+}
+
+// Updated Achievements section styling to match the Skills theme
+#achievements {
+  background: #1b4332; // Dark purple background like the skills section
+
+  .section-title {
+    color: #fff; // White text for contrast against dark background
+  }
+}
+
+.achievement-card {
+  position: relative;
+  background: #20503c; // Dark background that fits into the dark theme
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(157, 138, 222, 0.3);
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: #54ffb5;
+    border-radius: 4px 0 0 4px;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(157, 138, 222, 0.4);
+  }
+}
+
+.achievement-icon {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background: #39ad7b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  box-shadow: 0 4px 10px rgba(157, 138, 222, 0.5);
+
+  i {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+.achievement-content {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.achievement-text-content {
+  flex: 1;
+}
+
+.achievement-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff; // White text for contrast on dark background
+}
+
+.achievement-description {
+  font-size: 0.95rem;
+  color: #ccc; // Lighter text for readability
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.achievement-image-wrapper {
+  flex: 0 0 180px;
+  height: 120px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #353559;
+  border: 2px solid rgba(157, 138, 222, 0.2);
+
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-basis: auto;
+    margin-top: 15px;
+  }
+}
+
+.achievement-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.achievement-badge {
+  background-color: rgba(157, 138, 222, 0.2) !important;
+  color: #fff !important;
+  font-size: 0.8rem !important;
+  padding: 6px 12px !important;
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+  transition: all 0.3s ease !important;
+  border: 1px solid rgba(157, 138, 222, 0.5) !important;
+
+  &:hover {
+    background-color: #9d8ade !important;
+    color: #fff !important;
+    transform: translateY(-2px);
+  }
+}
+
+// Theme support
+[data-theme="dark"] {
+  .achievement-card {
+    background: #2a2a4d;
+    border-color: rgba(157, 138, 222, 0.3);
+  }
+
+  .achievement-title {
+    color: #fff;
+  }
+
+  .achievement-description {
+    color: #ccc;
+  }
+
+  .achievement-badge {
+    background-color: rgba(157, 138, 222, 0.2) !important;
+    border-color: rgba(157, 138, 222, 0.5) !important;
+  }
+
+  .achievement-image-wrapper {
+    background: #353559;
+    border-color: rgba(157, 138, 222, 0.2);
+  }
+}
+
+// Animation keyframes
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.resume-button {
+  display: inline-block; // Ensures proper button styling
+  margin-top: 20px; // Add spacing from the element above
+  padding: 10px 20px; // Padding for button content
+  font-size: 1.2rem; // Adjust font size
+  font-weight: bold; // Bold text
+  text-decoration: none; // Remove underline
+  color: white; // White text for contrast
+  background-color: #42a77d; // Purple background
+  border: 2px solid #317c5d; // Border matches background
+  border-radius: 8px; // Rounded corners
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); // Add depth with shadow
+  cursor: pointer; // Indicate it's clickable
+  transition: all 0.3s ease; // Smooth transitions
+
+  &:hover {
+    background-color: #317c5d; // Lighter purple on hover
+    color: white; // Maintain text contrast
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); // Enhance shadow on hover
+    transform: translateY(-2px); // Slight lift effect
+  }
+
+  &:active {
+    transform: translateY(0); // Remove lift on click
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3); // Reduce shadow on click
+  }
+}
+
+#education {
+  background: #e8f5ec;
+
+  .vertical-timeline-element:not(.vertical-timeline-element--no-children) .vertical-timeline-element-content {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .vertical-timeline-element:not(.vertical-timeline-element--no-children) {
+    .vertical-timeline-element-title {
+      margin-bottom: 10px;
+      color: #353239;
+    }
+
+    .vertical-timeline-element-subtitle {
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .vertical-timeline-element-date {
+      color: #353239;
+    }
+
+    ul {
+      margin-top: 15px;
+      padding-left: 20px;
+      list-style-type: disc;
+      color: #555;
+    }
+  }
 }
