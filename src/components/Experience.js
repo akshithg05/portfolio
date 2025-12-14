@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
-import { InProgress } from "grommet-icons";
+import { InProgress, Hpe } from "grommet-icons";
 
 class Experience extends Component {
   render() {
@@ -34,13 +34,12 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: "#1b4332",
-              color: "#fff",
-              textAlign: "center",
+              background: "white",
+              color: "white",
             }}
             icon={
               <img
-                src="./../images/hpe_logo.png"
+                src="/../images/hpe_logo.png"
                 alt="HPE logo"
                 style={{ width: "100%", height: "100%", borderRadius: "50%" }}
               />
