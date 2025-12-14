@@ -33,15 +33,15 @@ class Education extends Component {
         if (i === 0) {
           iconElement = (
             <img
-              src="images/Northeastern.png"
-              alt="Northeastern University"
+              src="images/portfolio/education/image1.png"
+              alt="GeorgiaTech University"
               style={{ width: "100%", height: "100%", borderRadius: "50%" }}
             />
           );
         } else if (i === 1) {
           iconElement = (
             <img
-              src="images/BMS.jpeg"
+              src="images/portfolio/education/image2.png"
               alt="B. M. S. College of Engineering"
               style={{ width: "100%", height: "100%", borderRadius: "50%" }}
             />
@@ -55,7 +55,7 @@ class Education extends Component {
             className="vertical-timeline-element--education"
             date={edu.years}
             iconStyle={{
-              background: "#6E5AAD",
+              background: "#1b4332",
               color: "#FFFFFF",
               textAlign: "center",
               border: "3px solid #FFFFFF",
@@ -89,7 +89,7 @@ class Education extends Component {
             )}
 
             {/* Render Research Assistant Experiences */}
-            {research.length > 0 && (
+            {/* {research.length > 0 && (
               <div className="research-section">
                 <h4>Research Assistant:</h4>
                 <ul
@@ -103,10 +103,10 @@ class Education extends Component {
                   {renderBulletPoints(research)}
                 </ul>
               </div>
-            )}
+            )} */}
 
             {/* Render Teaching Assistant Experiences */}
-            {teaching.length > 0 && (
+            {/* {teaching.length > 0 && (
               <div className="teaching-section">
                 <h4>Teaching Assistant:</h4>
                 <ul
@@ -120,7 +120,7 @@ class Education extends Component {
                   {renderBulletPoints(teaching)}
                 </ul>
               </div>
-            )}
+            )} */}
 
             {/* Render Coursework */}
             {formattedCoursework.length > 0 && (
@@ -175,7 +175,7 @@ class Education extends Component {
               {educationDetails}
               <VerticalTimelineElement
                 iconStyle={{
-                  background: "#6E5AAD",
+                  background: "#1b4332",
                   color: "#FFFFFF",
                   textAlign: "center",
                   border: "3px solid #FFFFFF",

@@ -9,9 +9,9 @@
         "class": "fab fa-github"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com",
-        "class": "fab fa-instagram"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/akshith-gunasheelan-b8068921a/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "myProfile.jpg"
@@ -39,7 +39,7 @@
         "level": "80"
       },
       {
-        "name": "Tailwind CSS",
+        "name": "Tailwind",
         "class": "devicon-tailwindcss-plain",
         "level": "85"
       },

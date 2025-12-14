@@ -94,10 +94,10 @@
       "mainTech": ["ReactJS", "JavaScript", "Python"],
       "technologies": ["Redux Toolkit", "Grommet", "Node.js", "Figma"],
       "details": [
-        "Delivered key UI features for HPE Compute Ops Management, from design to release.",
-        "Worked closely with backend, UX, and product teams to ship high-quality updates.",
-        "Maintained and released HPE OneView SDKs using Jenkins-based CI/CD pipelines.",
-        "Enhanced UI architecture, performance, and component reusability."
+        "Owned end-to-end delivery of production UI features for HPE Compute Ops Management, from design implementation to enterprise release.",
+        "Collaborated cross-functionally with backend, UX, and product teams to ship scalable, high-quality features for large enterprise environments.",
+        "Maintained and released multiple HPE OneView SDKs using Jenkins-based CI/CD pipelines, improving SDK API coverage by ~50% through automation and validation enhancements.",
+        "Improved UI performance, architecture, and component reusability, contributing to smoother user experience in large-scale server management workflows."
       ]
     },
     {
@@ -107,9 +107,9 @@
       "mainTech": ["ReactJS", "TypeScript"],
       "technologies": ["CSS", "Tailwind CSS", "REST APIs", "Figma", "MongoDB"],
       "details": [
-        "Engineered responsive, accessible interfaces for HPE Compute Ops Management while collaborating closely with UX and backend teams.",
-        "Delivered core platform features including approval workflows and server-location dashboards using RESTful APIs and OpenStreetMap integrations.",
-        "Enhanced data retrieval and search efficiency by designing optimized Amazon OpenSearch–based API endpoints."
+        "Engineered responsive and accessible user interfaces for HPE Compute Ops Management using React and TypeScript, adhering to enterprise UI standards.",
+        "Delivered core platform capabilities including approval workflows and server-location dashboards by integrating RESTful APIs and OpenStreetMap visualizations.",
+        "Improved search relevance and data retrieval performance by contributing to optimized Amazon OpenSearch–backed API endpoints."
       ]
     },
     {
@@ -119,9 +119,9 @@
       "mainTech": ["Python", "Shell", "Jenkins"],
       "technologies": ["Terraform", "Ansible", "CI/CD", "Linux", "GitHub"],
       "details": [
-        "Automated validation and release workflows for HPE OneView SDKs (Python, Ansible, Go, Terraform) using Jenkins and Linux-based CI pipelines.",
-        "Developed automation scripts to streamline build, test, and deployment processes, improving release consistency and reducing manual effort.",
-        "Contributed to maintaining stable SDK releases by implementing end-to-end checks, debugging issues, and enhancing pipeline reliability."
+        "Automated validation, deployment, and release workflows for HPE OneView SDKs (Python, Ansible, Go, Terraform) using Jenkins and Linux-based CI pipelines.",
+        "Developed end-to-end automation scripts that reduced manual release effort and increased release consistency across multiple SDKs.",
+        "Expanded automated test and validation coverage across SDK APIs, contributing to an estimated ~50% improvement in overall API coverage and pipeline reliability."
       ]
     }
   ],
@@ -153,11 +153,11 @@
   ],
   "education": [
     {
-      "institution": "Northeastern University",
-      "degree": "Master of Science - MS, Data Science",
-      "location": "Boston, MA",
-      "years": "Sep 2023 - May 2025",
-      "gpa": "3.857",
+      "institution": "Georgia Institute of Technology",
+      "degree": "Master of Science - MS, Computer Science",
+      "location": "Remote, Online",
+      "years": "Aug 2025 - Present",
+      "gpa": "4.0",
       "Research Assistant": [
         "Worked as a research assistant under Professor Kwong Chan as part of <a href='https://damore-mckim.northeastern.edu/dash' target='_blank'>DMSB AI Strategic Hub</a> to build a feedback bot to automate grading on canvas"
       ],
@@ -167,28 +167,23 @@
         "Worked as a teaching assistant for <a href='https://www.khoury.northeastern.edu/home/vkp/3800-sp13/Course_Overview.html' target='_blank'>CS3800 - Theory of Computation</a> under Prof. Walter Schnyder"
       ],
 
-      "coursework": [
-        "DS5110 Introduction to Data Management and Processing, CS5800 Algorithms, DS5220 Supervised Machine Learning, DS5230 Unsupervised Machine Learning, CS6120 Natural Language Processing, DS5983 Large Language Models, DS5500 Data Science Capstone"
-      ],
-      "extra": [
-        "Member of the <a href='https://www.khoury.northeastern.edu/clubs_and_orgs/the-data-science-hub-boston/' target='_blank'>Data Science Hub</a> at Northeastern University"
-      ]
+      "coursework": ["CS 7638: Robotics: AI Techniques"]
     },
     {
       "institution": "B. M. S. College of Engineering",
-      "degree": "Bachelor of Engineering - BE, Information Science",
+      "degree": "Bachelor of Engineering - BE, Electronics and Communication",
       "location": "Bengaluru, India",
       "years": "2019 - 2023",
-      "gpa": "3.8",
+      "gpa": "9.05 / 10",
       "Research Assitant": [],
       "Teaching Assistant": [],
       "coursework": [
-        "19MA3BSSDM Statistics and Discrete Mathematics, 19MA3BLIA Linear Algebra, 19IS3PCOOP Object Oriented Programming, 20IS5PEADS Advanced Data Structures and Algorithms, 20IS5PDBMS Database Management Systems, 20IS5PEAPP Advanced Python Programming, 20IS7OEMLG Machine Learning, 20IS6PEDLG Deep Learning"
+        "20IS6OEDSA Data Structures and Algorithms ,19EC6PE3IT Internet of Things, 19EC5PE2OS Operating System, 19EC5PE1OP Object Oriented Programming using C++, 19EC5PCFOV Fundamentals of VLSI, 19EC4ESCST Control Systems, 19EC4PCHDL HDL Programming, 18CS1ESCPP C Programming, 19EC7CE2NC Network Security and Cryptography, 19EC6PCCCN Computer Communication Networks"
       ],
       "extra": [
         "Member of the Rotaract club and part of <a href='https://bmscerotaract.wordpress.com/2019/10/09/iteach-phase-11-opening-session/' target='_blank'>iTeach initiative</a>  at BMSCE",
-        "Member of <a href =https://www.bmsceieee.com/home target='_blank'>IEEE Student Branch</a> at BMSCE",
-        "Member of the university chess team"
+        "Member of <a href='https://bmsce.ac.in/assets/img/Phase%20Shift/PS23%20Report_.pdf' target='_blank'>Phaseshift 2021 & 2022 </a>(university annual technical symposium)  organizing team",
+        "Member of the university football team"
       ]
     }
   ]
