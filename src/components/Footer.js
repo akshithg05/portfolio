@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Github, Linkedin } from "grommet-icons";
 
 class Footer extends Component {
   render() {
@@ -7,7 +8,7 @@ class Footer extends Component {
         return (
           <span key={network.name} className="m-4">
             <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
+              {network.class === "github" ? <Github color="white" /> : <Linkedin color="white" />}
             </a>
           </span>
         );

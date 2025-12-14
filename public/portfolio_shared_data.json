@@ -6,12 +6,12 @@
       {
         "name": "github",
         "url": "https://github.com/akshithg05",
-        "class": "fab fa-github"
+        "class": "github"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/akshith-gunasheelan-b8068921a/",
-        "class": "fab fa-linkedin"
+        "class": "linkedin"
       }
     ],
     "image": "myProfile.jpg"

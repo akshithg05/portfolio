@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Badge from "react-bootstrap/Badge";
+import { Achievement } from "grommet-icons";
 
 class Achievements extends Component {
   render() {
@@ -27,7 +28,7 @@ class Achievements extends Component {
         return (
           <div className="achievement-card" key={i} data-aos="fade-up" data-aos-delay={i * 100}>
             <div className="achievement-icon">
-              <i className="fas fa-trophy"></i>
+              <Achievement size="medium" color="white" />
             </div>
             <div className="achievement-content">
               <div className="achievement-text-content">

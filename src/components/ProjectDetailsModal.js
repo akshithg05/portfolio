@@ -3,6 +3,7 @@ import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
+import { Close, Share } from "grommet-icons";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
@@ -44,7 +45,7 @@ class ProjectDetailsModal extends Component {
         className="modal-inside"
       >
         <span onClick={this.props.onHide} className="modal-close">
-          <i className="fas fa-times fa-3x close-icon"></i>
+          <Close size="medium" color="black" />
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
@@ -69,11 +70,13 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h3>
               {title}
               {url ? (
                 <a href={url} target="_blank" rel="noopener noreferrer" className="link-href">
-                  <i className="fas fa-external-link-alt" style={{ marginLeft: "10px" }}></i>
+                  <span style={{ paddingLeft: "5px" }}>
+                    <Share size="20px" style={{ paddingBottom: "5px" }} color="black" />
+                  </span>
                 </a>
               ) : null}
             </h3>

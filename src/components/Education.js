@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import { Book } from "grommet-icons";
 
 class Education extends Component {
   render() {
@@ -47,7 +48,7 @@ class Education extends Component {
             />
           );
         } else {
-          iconElement = <i className="fas fa-graduation-cap education-icon"></i>;
+          iconElement = <Book color="white" />;
         }
 
         return (
@@ -180,11 +181,10 @@ class Education extends Component {
                   textAlign: "center",
                   border: "3px solid #FFFFFF",
                   display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
+
                   boxShadow: "0 0 15px 5px #7B6FAD",
                 }}
-                icon={<i className="fas fa-graduation-cap mx-auto education-icon" style={{ fontSize: "2.5rem" }}></i>}
+                icon={<Book color="white" />}
               />
             </VerticalTimeline>
           </div>

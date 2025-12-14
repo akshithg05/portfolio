@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import { InProgress } from "grommet-icons";
 
 class Experience extends Component {
   render() {
@@ -39,7 +40,7 @@ class Experience extends Component {
             }}
             icon={
               <img
-                src="/../images/hpe_logo.png"
+                src="./../images/hpe_logo.png"
                 alt="HPE logo"
                 style={{ width: "100%", height: "100%", borderRadius: "50%" }}
               />
@@ -96,7 +97,7 @@ class Experience extends Component {
                 color: "#fff",
                 textAlign: "center",
               }}
-              icon={<i className="fas fa-hourglass-start mx-auto experience-icon"></i>}
+              icon={<InProgress color="white" />}
             />
           </VerticalTimeline>
         </div>
