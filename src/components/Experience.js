@@ -35,15 +35,8 @@ class Experience extends Component {
             date={work.years}
             iconStyle={{
               background: "white",
-              color: "white",
             }}
-            icon={
-              <img
-                src="/../images/hpe_logo.png"
-                alt="HPE logo"
-                style={{ width: "100%", height: "100%", borderRadius: "50%" }}
-              />
-            }
+            icon={<Hpe size="large" color="green" />}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>{mainTech}</div>
