@@ -39,7 +39,7 @@ class Experience extends Component {
             }}
             icon={
               <img
-                src="../images/hpe_logo.png"
+                src="/../images/hpe_logo.png"
                 alt="HPE logo"
                 style={{ width: "100%", height: "100%", borderRadius: "50%" }}
               />
