@@ -128,12 +128,12 @@ class Achievements extends Component {
               {achievement.image && (
                 <div className="achievement-image-wrapper">
                   <img
-                    src={achievement.image}
-                    alt={achievement.title}
+                    src={achievement?.image}
+                    alt={achievement?.title}
                     className="achievement-image"
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src = "/images/placeholder.jpg"; // Fallback image
+                      e.target.src = "/images/placeholder.png"; // Fallback image
                     }}
                   />
                 </div>
