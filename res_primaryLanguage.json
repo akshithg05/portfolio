@@ -1,0 +1,190 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "I'm Akshith Gunasheelan, a Software Engineer who enjoys building fast, reliable and thoughtfully designed user interfaces. I work across modern web technologies, cloud-driven platforms and ML-supported features, and I focus on turning complex requirements into clean, intuitive and performant experiences. My work in UI engineering and platform development has shaped how I approach software: it should be scalable, user-focused and genuinely meaningful to the people who use it. When I’m not deep in code, I love being outdoors, travelling, exploring new places, running marathons and playing sports. Staying active and trying new experiences keeps me balanced and helps me bring fresh energy and perspective into my work.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "devTinder",
+      "startDate": "2025",
+      "description": "DevTinder is a full-stack matchmaking and networking platform with secure authentication, real-time one-to-one chat, premium subscription workflows, and automated email notifications, built using React (Vite), Tailwind CSS, and Redux Toolkit on the frontend, Node.js, Express, MongoDB, Socket.IO, and Stripe on the backend, featuring cron-based background jobs, cookie-based session handling with JWTs, and deployed in a production-style setup with the frontend on Netlify and backend on Render.",
+      "images": [
+        "images/portfolio/devTinder/image1.png",
+        "images/portfolio/devTinder/image5.png",
+        "images/portfolio/devTinder/image6.png",
+        "images/portfolio/devTinder/image4.png",
+        "images/portfolio/devTinder/image3.png",
+        "images/portfolio/devTinder/image2.png"
+      ],
+      "url": "https://dev-tidner.netlify.app/feed",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "NetflixGPT",
+      "startDate": "2025",
+      "description": "AI-assisted movie browsing platform integrating OpenAI GPT-4o with the TMDB API to deliver intelligent recommendations and real-time data, built using React (Vite), Tailwind CSS, Redux, and Firebase Authentication, featuring secure routing, autoplay trailers, memoized API calls, multi-language support, and AI-driven search with content filtering.",
+      "images": [
+        "images/portfolio/netflixGpt/image1.png",
+        "images/portfolio/netflixGpt/image2.png",
+        "images/portfolio/netflixGpt/image3.png"
+      ],
+      "url": "https://neftlix-gtp.netlify.app",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Cafficionado",
+      "startDate": "2025",
+      "description": "Cafficionado is a real-time caffeine tracking web app that helps users log coffee consumption, simulate blood caffeine levels using metabolic models, and analyze long-term costs, built with React and FantaCSS, backed by Firebase Authentication and Firestore for secure, real-time data persistence, and designed to deliver a responsive, insightful experience across devices.",
+      "images": [
+        "images/portfolio/cafficionado/image1.png",
+        "images/portfolio/cafficionado/image2.png",
+        "images/portfolio/cafficionado/image3.png",
+        "images/portfolio/cafficionado/image4.png"
+      ],
+      "url": "https://cafficionado.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Hewlett Packard Enterprise",
+      "title": "Software Engineer 2",
+      "years": "11.2025 - present",
+      "mainTech": ["ReactJS", "JavaScript", "Python"],
+      "technologies": ["Redux Toolkit", "Grommet", "Node.js", "Figma"],
+      "details": [
+        "Owned end-to-end delivery of production UI features for HPE Compute Ops Management, from design implementation to enterprise release.",
+        "Collaborated cross-functionally with backend, UX, and product teams to ship scalable, high-quality features for large enterprise environments.",
+        "Maintained and released multiple HPE OneView SDKs using Jenkins-based CI/CD pipelines, improving SDK API coverage by ~50% through automation and validation enhancements.",
+        "Improved UI performance, architecture, and component reusability, contributing to smoother user experience in large-scale server management workflows."
+      ]
+    },
+    {
+      "company": "Hewlett Packard Enterprise",
+      "title": "Software Engineer 1",
+      "years": "8.2023 - 11.2025",
+      "mainTech": ["ReactJS", "TypeScript"],
+      "technologies": ["CSS", "Tailwind CSS", "REST APIs", "Figma", "MongoDB"],
+      "details": [
+        "Engineered responsive and accessible user interfaces for HPE Compute Ops Management using React and TypeScript, adhering to enterprise UI standards.",
+        "Delivered core platform capabilities including approval workflows and server-location dashboards by integrating RESTful APIs and OpenStreetMap visualizations.",
+        "Improved search relevance and data retrieval performance by contributing to optimized Amazon OpenSearch–backed API endpoints."
+      ]
+    },
+    {
+      "company": "Hewlett Packard Enterprise",
+      "title": "Research and Development Intern",
+      "years": "1.2023 - 6.2023",
+      "mainTech": ["Python", "Shell", "Jenkins"],
+      "technologies": ["Terraform", "Ansible", "CI/CD", "Linux", "GitHub"],
+      "details": [
+        "Automated validation, deployment, and release workflows for HPE OneView SDKs (Python, Ansible, Go, Terraform) using Jenkins and Linux-based CI pipelines.",
+        "Developed end-to-end automation scripts that reduced manual release effort and increased release consistency across multiple SDKs.",
+        "Expanded automated test and validation coverage across SDK APIs, contributing to an estimated ~50% improvement in overall API coverage and pipeline reliability."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "AWS Certified AI Practitioner",
+      "description": "Earners of this badge understand AI, ML, and generative AI concepts, methods, and strategies in general and on AWS. They can determine the correct types of AI/ML technologies to apply to specific use cases and know how to use AI, ML, and generative AI technologies responsibly. They are familiar with the AWS Global Infrastructure, core AWS services and use cases, AWS service pricing models, and the AWS shared responsibility model for security and compliance in the AWS Cloud.",
+      "image": "/images/portfolio/achievements/cloud.png",
+      "tags": ["Data Science", "60 hour datathon", "First Place"]
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "description": "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.",
+      "image": "/images/portfolio/achievements/ai.png",
+      "tags": ["Cloud", "RCNN", "SSD", "YOLO", "Publication"]
+    },
+    {
+      "title": "Research Publication 1",
+      "description": "Published a paper titled SOTW: Semantics Oriented Tagging of Web Pages, in Springer Nature 2023.",
+      "image": "/images/portfolio/achievements/paper.png",
+      "tags": ["Research", "AI", "TF-IDF", "Publication"]
+    },
+    {
+      "title": "Research Publication 2",
+      "description": "Published a paper titled Ontology Integration for Cultural Landscape Management Using ML and Assistive Artificial Intelligence, in Springer Nature 2023.",
+      "image": "/images/portfolio/achievements/paper.png",
+      "tags": ["Research", "AI", "TF-IDF", "Publication"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "degree": "Master of Science - MS, Computer Science",
+      "location": "Remote, Online",
+      "years": "Aug 2025 - Present",
+      "gpa": "4.0",
+      "Research Assistant": [
+        "Worked as a research assistant under Professor Kwong Chan as part of <a href='https://damore-mckim.northeastern.edu/dash' target='_blank'>DMSB AI Strategic Hub</a> to build a feedback bot to automate grading on canvas"
+      ],
+      "Teaching Assistant": [
+        "Worked as a teaching assistant for <a href='https://course.ccs.neu.edu/cs1800/course_staff.html' target='_blank'>CS1800-Discrete Structures in Mathematics</a> under Professor Matt Higger",
+        "Worked as a teaching assistant for <a href='https://catalog.northeastern.edu/course-descriptions/mism/' target='_blank'>MSIM6212 - Data Mining and Machine Learning for Business</a> under Prof. Xiupeng Wang",
+        "Worked as a teaching assistant for <a href='https://www.khoury.northeastern.edu/home/vkp/3800-sp13/Course_Overview.html' target='_blank'>CS3800 - Theory of Computation</a> under Prof. Walter Schnyder"
+      ],
+
+      "coursework": ["CS 7638: Robotics: AI Techniques"]
+    },
+    {
+      "institution": "B. M. S. College of Engineering",
+      "degree": "Bachelor of Engineering - BE, Electronics and Communication",
+      "location": "Bengaluru, India",
+      "years": "2019 - 2023",
+      "gpa": "9.05 / 10",
+      "Research Assitant": [],
+      "Teaching Assistant": [],
+      "coursework": [
+        "20IS6OEDSA Data Structures and Algorithms ,19EC6PE3IT Internet of Things, 19EC5PE2OS Operating System, 19EC5PE1OP Object Oriented Programming using C++, 19EC5PCFOV Fundamentals of VLSI, 19EC4ESCST Control Systems, 19EC4PCHDL HDL Programming, 18CS1ESCPP C Programming, 19EC7CE2NC Network Security and Cryptography, 19EC6PCCCN Computer Communication Networks"
+      ],
+      "extra": [
+        "Member of the Rotaract club and part of <a href='https://bmscerotaract.wordpress.com/2019/10/09/iteach-phase-11-opening-session/' target='_blank'>iTeach initiative</a>  at BMSCE",
+        "Member of <a href='https://bmsce.ac.in/assets/img/Phase%20Shift/PS23%20Report_.pdf' target='_blank'>Phaseshift 2021 & 2022 </a>(university annual technical symposium)  organizing team",
+        "Member of the university football team"
+      ]
+    }
+  ]
+}

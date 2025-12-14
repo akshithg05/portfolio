@@ -1,0 +1,63 @@
+{
+  "basic_info": {
+    "name": "Akshith Gunasheelan",
+    "titles": ["Software Engineer", "Full Stack Developer", "Front-end Developer"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/akshithg05",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/akshith-gunasheelan-b8068921a/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "ReactJS",
+        "class": "devicon-react-plain",
+        "level": "90"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "85"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "80"
+      },
+      {
+        "name": "Node.js",
+        "class": "devicon-nodejs-plain",
+        "level": "80"
+      },
+      {
+        "name": "Tailwind",
+        "class": "devicon-tailwindcss-plain",
+        "level": "85"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "75"
+      },
+      {
+        "name": "Terraform",
+        "class": "devicon-terraform-plain",
+        "level": "70"
+      }
+    ]
+  }
+}
